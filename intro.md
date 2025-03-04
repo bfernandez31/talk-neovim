@@ -11,36 +11,51 @@ Qui suis-je ?
 
 <!-- new_lines: 2 -->
 
-Benoit Fernandez 
+Benoit Fernandez
 
-Tech Lead 
+Tech Lead
 
 Onepoint
 
-
 <!-- column: 2 -->
+
 <!-- new_lines: 2 -->
-
-
+![image:width:100%](moi.jpg)
 
 <!-- reset_layout -->
 
-
-
-
 <!-- end_slide -->
-
 
 Mon parcours
 ===
+<!-- pause -->
+<!-- column_layout: [1, 1] -->
 
+<!-- column: 0 -->
+# Expérience
+<!-- pause -->
+<span style="color: palette:red">Java/Angular</span> depuis plusieurs années
+<!-- pause -->
+Spécialisé 95% frontend depuis 4-5 ans
+<!-- pause -->
+Utilisation d'IntelliJ IDEA
+<!-- pause -->
 
+<!-- column: 1 -->
+# Ce qui me motive
+<!-- pause -->
+<span style="color: palette:red">Passion d'apprendre</span> et d'expérimenter
+<!-- pause -->
+Recherche de <span style="color: palette:red">l'état de flux</span> optimal
+<!-- pause -->
+<!-- reset_layout -->
+
+TODO Image illustrant mon evelotion de setup
 
 <!-- end_slide -->
 
 Vim, c'est quoi ?
 ===
-
 
 <!-- new_lines: 2 -->
 
@@ -57,28 +72,26 @@ Philosophie : efficacité et minimalisme
 
 Ajoute des fonctionnalités essentielles
 
-
-<!-- speaker_note: |
-Vi a été créé par Bill Joy en 1976, intégré dans tous les systèmes UNIX.
-Vim (Vi IMproved) ajoute de nombreuses fonctionnalités essentielles :
-- Édition multi-fichiers et multi-fenêtres
-- Annulation multi-niveaux (undo/redo)
-- Coloration syntaxique avancée
-- Complétion intelligente
-- Recherche avec expressions régulières
-- Macros et automatisation
-- Configuration via vimrc
-- Extensible via plugins (VimL/VimScript)
-- Initialement développé pour AmigaOs, d'où son support multi-plateformes amélioré
-- Prise en charge de nombreux encodages
+<!-- 
+speaker_note: |
+  Vi a été créé par Bill Joy en 1976, intégré dans tous les systèmes UNIX.
+  Vim (Vi IMproved) ajoute de nombreuses fonctionnalités essentielles :
+  - Édition multi-fichiers et multi-fenêtres
+  - Annulation multi-niveaux (undo/redo)
+  - Coloration syntaxique avancée
+  - Complétion intelligente
+  - Recherche avec expressions régulières
+  - Macros et automatisation
+  - Configuration via vimrc
+  - Extensible via plugins (VimL/VimScript)
+  - Initialement développé pour AmigaOs, d'où son support multi-plateformes amélioré
+  - Prise en charge de nombreux encodages
 -->
-
 
 <!-- end_slide -->
 
 Le coeur de Vim
 ===
-
 
 <!-- new_lines: 2 -->
 <!-- pause -->
@@ -86,7 +99,7 @@ Le coeur de Vim
 
 <!-- column: 0 -->
 
-# Les modes : 
+# Les modes
 
 <!-- pause -->
 **Normal**: navigation et manipulation
@@ -101,7 +114,7 @@ Le coeur de Vim
 
 <!-- column: 1 -->
 <!-- pause -->
-# Langage d'édition:
+# Langage d'édition
 
 <!-- pause -->
 **Verbes** : actions (d = delete, c = change, y = yank/copy)
@@ -113,26 +126,23 @@ Le coeur de Vim
 <!-- pause -->
 **Objets**: sur quoi agir (w = word, { = block)
 
-
-
 <!-- end_slide -->
 
 ![image:width:90%](vim_cheat_sheet.png)
 <!-- end_slide -->
-
 
 Neovim : L'évolution moderne
 ===
 
 <!-- new_lines: 2 -->
 <!-- pause -->
-Fork de Vim créé en 2014 
+Fork de Vim créé en 2014
 <!-- pause -->
 100% compatible avec Vim
 <!-- pause -->
 Extensible en Lua (plus simple que VimScript)
 <!-- pause -->
-Support natif des protocoles modernes 
+Support natif des protocoles modernes
 <!-- pause -->
 Écosystème actif et communautaire
 
@@ -151,118 +161,132 @@ Neovim apporte des améliorations majeures à Vim :
 -->
 
 <!-- end_slide -->
+Le Changement Inattendu
+===
 
+<!-- new_lines: 2 -->
+<!-- column_layout: [1, 1] -->
+
+<!-- column: 0 -->
+
+<!-- pause -->
+Reprise après un congé parental
+<!-- pause -->
+Changement de projet
+<!-- pause -->
+Environnement dans une VDI sous windows
+<!-- pause -->
+
+<!-- column: 1 -->
+
+![image:width:60%](among_panik.png)
+
+<!-- end_slide -->
+
+La passerelle : IdeaVim
+===
+
+<!-- column_layout: [1, 2] -->
+
+<!-- column: 0 -->
+
+<!-- new_lines: 2 -->
+<!-- pause -->
+Plugin pour IntelliJ IDEA
+<!-- pause -->
+Émulation de Vim
+<!-- pause -->
+
+<!-- column: 1 -->
+![image:width:90%](extract-ideavimrc.png)
+<!-- end_slide -->
 
 ![image:width:100%](vim-productive.png)
+
+<!-- end_slide -->
+
+Le déclic
+===
+
+<!-- new_lines: 4 -->
+<!-- pause -->
+Projet perso en Zig
+<!-- pause -->
+Mauvais support dans IntelliJ
+<!-- pause -->
+Communauté Zig essentiellement sur Neovim
 
 <!-- end_slide -->
 
 ![image:width:100%](hide_pain_harold.png)
 
 <!-- end_slide -->
-
-<!-- end_slide -->
-
-![image:width:100%](pulp.gif)
-
-<!-- end_slide -->
-
-
-<!-- end_slide -->
-
-Mon environnement de développement
----
-
-
-
-# Le confort de l'IDE
-
-
-<!-- end_slide -->
-
-# Le quotidien avec IntelliJ
-## Le quotidien avec IntelliJ
-
-### Le quotidien avec IntelliJ
-
-<!-- end_slide -->
-# Le déclencheur
-
-
-<!-- end_slide -->
- Les premiers pas vers le changement
----
-
-# IdeaVim : la passerelle
-
-
-<!-- end_slide -->
-# Les premières frustrations
-
-<!-- end_slide -->
-# L'importance d'une transition progressive
-
-
-<!-- end_slide -->
-L'acceptation et l'apprentissage
----
-
-# Le moment "déclic"
-
-<!-- end_slide -->
-
-Fonctionnalités Modernes
----
-
-# 󰛔 Support des langages et Débogage
-
-
-
-<!-- end_slide -->
-
-# Les ressources essentielles
-
-
-<!-- end_slide -->
-# Ma configuration actuelle
-
-*Démonstration en direct*
-
-
-<!-- end_slide -->
-# Les bénéfices 
-
-
-<!-- end_slide -->
-Conseils pratiques
----
-
-# Par où commencer ?
-
-
-<!-- end_slide -->
-# Les pièges à éviter
-
-
-<!-- end_slide -->
-# Resources et communauté
-
-<!-- end_slide -->
-Merci !
----
-
-Questions ?
-
-*Vous pouvez retrouver ma config sur GitHub*
-
-
-<!-- end_slide -->
-Questions ?
+Démonstration
 ===
 
 <!-- jump_to_middle -->
- 
-
-Config disponible sur GitHub
+🏠 Tour du propriétaire
 
 <!-- end_slide -->
+
+Par où commencer ?
+===
+<!-- column_layout: [1, 1] -->
+
+<!-- column: 0 -->
+# Stratégie progressive
+<!-- pause -->
+Commencer avec <span style="color: palette:red">IdeaVim</span> ou VSCodeVim
+<!-- pause -->
+Partir de Kickstart ou d'une distribution
+<!-- pause -->
+Garder des "filets de sécurité"
+<!-- pause -->
+<!-- column: 1 -->
+# Mindset gagnant
+<!-- pause -->
+Accepter la courbe d'apprentissage
+<!-- pause -->
+Célébrer les petites victoires
+<!-- pause -->
+<!-- reset_layout -->
+# Le secret ultime : **LA MOTIVATION !**
+
+Les possibilités sont infinies, mais tout repose sur votre envie de créer VOTRE environnement.
+
+<!-- end_slide -->
+Ressources
+===
+
+<!-- column_layout: [1, 1] -->
+
+<!-- column: 0 -->
+# Apprendre
+
+<span style="color: palette:red">vimtutor</span> (commande intégrée)
+[ThePrimeagen](https://www.youtube.com/@ThePrimeagen) sur YouTube
+[Neovim from Scratch](https://github.com/LunarVim/Neovim-from-scratch)
+
+# Configurations
+
+[LazyVim](https://www.lazyvim.org/)
+
+<!-- column: 1 -->
+# Communauté
+
+[r/neovim](https://www.reddit.com/r/neovim/)
+[Discord Neovim](https://discord.com/invite/Xb9B4Ny)
+
+<!-- end_slide -->
+Merci
+===
+<!-- column_layout: [1, 1] -->
+
+<!-- column: 0 -->
+**GitHub**
+
+![image:width:60%](feedback.png)
+<!-- column: 1 -->
+**feedback**
+
+![image:width:60%](feedback.png)
