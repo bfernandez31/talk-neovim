@@ -11,12 +11,11 @@ Qui suis-je ?
 
 <!-- new_lines: 2 -->
 
-Benoit Fernandez
+**Benoit Fernandez**
 
 Tech Lead
 
-Onepoint
-
+**Onepoint**
 <!-- column: 2 -->
 
 <!-- new_lines: 2 -->
@@ -44,33 +43,37 @@ Utilisation d'IntelliJ IDEA
 <!-- column: 1 -->
 # Ce qui me motive
 <!-- pause -->
-<span style="color: palette:red">Passion d'apprendre</span> et d'expérimenter
+Passionné par l'**apprentissage** et l'**expérimentation**
 <!-- pause -->
-Recherche de <span style="color: palette:red">l'état de flux</span> optimal
-<!-- pause -->
+Recherche de **l'état "optimal" de concentration** (flow)
 <!-- reset_layout -->
-
-TODO Image illustrant mon evelotion de setup
 
 <!-- end_slide -->
 
-Vim, c'est quoi ?
+Neovim, c'est quoi ?
 ===
 
-<!-- new_lines: 2 -->
+<!-- pause -->
+<!-- column_layout: [1, 1] -->
 
+<!-- column: 0 -->
+# Origines
+<!-- pause -->
+**vi** (1976) - Premier éditeur modal UNIX
+<!-- pause -->
+**Vim** (1991) - Vi IMproved
+<!-- pause -->
+**Neovim** (2014) - Fork moderne de Vim
 <!-- pause -->
 
-Vim (Vi IMproved) : éditeur de texte créé par Bram Moolenaar en 1991
+<!-- column: 1 -->
+# Philosophie commune
 <!-- pause -->
-
-Clone de vi (1976)
+Efficacité et minimalisme
 <!-- pause -->
-
-Philosophie : efficacité et minimalisme
+Séparation modes navigation/édition
 <!-- pause -->
-
-Ajoute des fonctionnalités essentielles
+Personnalisation
 
 <!-- 
 speaker_note: |
@@ -90,10 +93,10 @@ speaker_note: |
 
 <!-- end_slide -->
 
-Le coeur de Vim
+Le coeur de Vim/Neovim
 ===
 
-<!-- new_lines: 2 -->
+<!-- new_lines: 1 -->
 <!-- pause -->
 <!-- column_layout: [1, 1] -->
 
@@ -131,20 +134,18 @@ Le coeur de Vim
 ![image:width:90%](vim_cheat_sheet.png)
 <!-- end_slide -->
 
-Neovim : L'évolution moderne
+Neovim : les avancée clés
 ===
 
-<!-- new_lines: 2 -->
+<!-- new_lines: 1 -->
 <!-- pause -->
-Fork de Vim créé en 2014
+Architecture entièrement asynchrone dès sa conception
 <!-- pause -->
-100% compatible avec Vim
+Lua comme langage de script principal (vs VimScript)
 <!-- pause -->
-Extensible en Lua (plus simple que VimScript)
+API externe robuste permettant des intégrations avancées
 <!-- pause -->
-Support natif des protocoles modernes
-<!-- pause -->
-Écosystème actif et communautaire
+Support natif des protocoles modernes de développement (LSP/DAP)
 
 <!-- speaker_note: |
 Neovim apporte des améliorations majeures à Vim :
@@ -170,7 +171,7 @@ Le Changement Inattendu
 <!-- column: 0 -->
 
 <!-- pause -->
-Reprise après un congé parental
+Reprise après un congé paternité
 <!-- pause -->
 Changement de projet
 <!-- pause -->
@@ -192,7 +193,7 @@ La passerelle : IdeaVim
 
 <!-- new_lines: 2 -->
 <!-- pause -->
-Plugin pour IntelliJ IDEA
+Plugin pour IntelliJ
 <!-- pause -->
 Émulation de Vim
 <!-- pause -->
@@ -208,7 +209,9 @@ Plugin pour IntelliJ IDEA
 Le déclic
 ===
 
-<!-- new_lines: 4 -->
+<!-- new_lines: 2 -->
+<!-- column_layout: [1, 1] -->
+<!-- column: 0 -->
 <!-- pause -->
 Projet perso en Zig
 <!-- pause -->
@@ -216,10 +219,10 @@ Mauvais support dans IntelliJ
 <!-- pause -->
 Communauté Zig essentiellement sur Neovim
 
-<!-- end_slide -->
+<!-- column: 1 -->
 
-![image:width:100%](hide_pain_harold.png)
-
+<!-- pause -->
+![image:width:100%](days_since.png)
 <!-- end_slide -->
 Démonstration
 ===
@@ -252,8 +255,6 @@ Célébrer les petites victoires
 <!-- reset_layout -->
 # Le secret ultime : **LA MOTIVATION !**
 
-Les possibilités sont infinies, mais tout repose sur votre envie de créer VOTRE environnement.
-
 <!-- end_slide -->
 Ressources
 ===
@@ -263,20 +264,20 @@ Ressources
 <!-- column: 0 -->
 # Apprendre
 
-<span style="color: palette:red">vimtutor</span> (commande intégrée)
-[ThePrimeagen](https://www.youtube.com/@ThePrimeagen) sur YouTube
-[Neovim from Scratch](https://github.com/LunarVim/Neovim-from-scratch)
+ [ThePrimeagen](@ThePrimeagen)
 
-# Configurations
+ [TJ DeVries](@teej_dv)
 
-[LazyVim](https://www.lazyvim.org/)
+ **Neovim from Scratch**
+
+󰖟 **LazyVim**
 
 <!-- column: 1 -->
 # Communauté
 
-[r/neovim](https://www.reddit.com/r/neovim/)
-[Discord Neovim](https://discord.com/invite/Xb9B4Ny)
+ **r/neovim**
 
+  **Discord Neovim**
 <!-- end_slide -->
 Merci
 ===
