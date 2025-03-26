@@ -16,6 +16,8 @@ Qui suis-je ?
 Tech Lead
 
 **Onepoint**
+
+![image:width:100%](onepoint.png)
 <!-- column: 2 -->
 
 <!-- new_lines: 2 -->
@@ -43,7 +45,7 @@ Utilisation d'IntelliJ IDEA
 <!-- column: 1 -->
 # Ce qui me motive
 <!-- pause -->
-Passionné par l'**apprentissage** et l'**expérimentation**
+Passion pour l'**apprentissage** et l'**expérimentation**
 <!-- pause -->
 Recherche de **l'état "optimal" de concentration** (flow)
 <!-- reset_layout -->
@@ -105,15 +107,15 @@ Le coeur de Vim/Neovim
 # Les modes
 
 <!-- pause -->
-**Normal**: navigation et manipulation
+**Normal** : navigation et manipulation
 <!-- pause -->
-**Insertion**: saisie de texte
+**Insertion** : saisie de texte
 
 <!-- pause -->
-**Visuel**: sélection de texte
+**Visuel** : sélection de texte
 
 <!-- pause -->
-**Commande**: actions spéciales
+**Commande** : actions spéciales
 
 <!-- column: 1 -->
 <!-- pause -->
@@ -127,14 +129,14 @@ Le coeur de Vim/Neovim
 **Modificateurs** : quantité, direction (2, i, a)
 
 <!-- pause -->
-**Objets**: sur quoi agir (w = word, { = block)
+**Objets** : sur quoi agir (w = word, { = block)
 
 <!-- end_slide -->
 
 ![image:width:90%](vim_cheat_sheet.png)
 <!-- end_slide -->
 
-Neovim : les avancée clés
+Neovim : les avancées clés
 ===
 
 <!-- new_lines: 1 -->
@@ -145,7 +147,7 @@ Lua comme langage de script principal (vs VimScript)
 <!-- pause -->
 API externe robuste permettant des intégrations avancées
 <!-- pause -->
-Support natif des protocoles modernes de développement (LSP/DAP)
+Support natif des protocoles modernes de développement : LSP,DAP
 
 <!-- speaker_note: |
 Neovim apporte des améliorations majeures à Vim :
@@ -162,7 +164,7 @@ Neovim apporte des améliorations majeures à Vim :
 -->
 
 <!-- end_slide -->
-Le Changement Inattendu
+Le changement inattendu
 ===
 
 <!-- new_lines: 2 -->
